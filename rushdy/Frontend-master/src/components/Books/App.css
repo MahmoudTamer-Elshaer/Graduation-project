@@ -1,0 +1,490 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: sans-serif;
+    color: #333;
+  }
+  
+  .container {
+    max-width: 1200px;
+    /* margin: 0 auto; */
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #121B6B; /* Example dark blue */
+  }
+  
+/* --- تأكد من أن هذه الأنماط موجودة ومحدثة --- */
+
+/* Hero Section Styles (Updated for the new image) */
+.hero-section {
+    /* استخدام لون رمادي داكن كخلفية بديلة للمنقوش */
+    background-color: #5a5a5a; /* يمكنك تعديل هذا اللون */
+    /* أو يمكنك استخدام صورة خلفية منقوشة إذا أردت */
+    background-image: url('./components/assetes/image.png');
+    /* background-repeat: repeat; */
+  
+    min-height: 550px; /* تعديل الارتفاع حسب الحاجة */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px 20px;
+    position: relative; /* مهم لتموضع الدائرة A */
+  }
+  
+  .hero-section h1 {
+    font-size: 2.8rem; /* تعديل حجم الخط إذا لزم الأمر */
+    margin-bottom: 15px;
+    color: white; /* لون النص أبيض */
+    font-weight: 600;
+  }
+  
+  .hero-section p { /* هذا للفقرة الرئيسية تحت العنوان */
+    font-size: 1.1rem; /* تعديل حجم الخط */
+    margin-bottom: 40px; /* زيادة المسافة قبل الزر */
+    color: #e0e0e0;   /* لون أفتح قليلاً من الأبيض */
+    max-width: 650px; /* تحديد عرض الفقرة */
+    line-height: 1.6;
+  }
+  
+  /* حاوية الزر والنص لتسهيل تموضع الدائرة 'A' */
+  .upload-container {
+      position: relative; /* ضروري لتموضع الدائرة 'A' المطلق */
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  /* إزالة أنماط الإطار المنقط القديمة إذا كانت موجودة */
+  /* .upload-area { border: none; padding: 0; background: none; } */
+  
+  .upload-button {
+    background-color: #E1AB48; 
+    color: #fefcfc; 
+    padding: 14px 35px;
+    border: none;
+    border-radius: 8px; 
+    font-size: 1.15rem; 
+    font-weight: 500; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .upload-button:hover {
+    background-color: #ec971f; 
+  }
+  .upload-button:active {
+      transform: scale(0.98);
+  }
+  
+  
+  .supported-formats {
+      font-size: 0.75rem; 
+      color: #cccccc;    
+      margin-top: 15px;   
+      margin-bottom: 0; 
+  }
+  
+  /* info about file(optional)*/
+  .file-info {
+      margin-top: 10px;
+      color: #c0c0c0;
+      font-size: 0.85rem;
+  }
+    
+  /* مثال: تأكد أن خلفية باقي الصفحة فاتحة للتباين */
+  .section {
+    /* background-color: #EBF9FF; */
+    background-color: #ffebf9;
+    
+     /* خلفية بيضاء للأقسام الأخرى */
+  }
+  
+  
+  /* Sections */
+  .section {
+    padding: 50px;
+    
+  }
+  
+  .section-title {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+  }
+  .HI{
+    height: 400px;
+    background-color: #EBF9FF;
+    color: #121B6B;
+    font-weight: 20px;
+
+  }
+  .hi{
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    font-weight: 20px;
+
+  }
+  
+  /* Books Section */
+
+/* حاوية العرض العامة (بدل .books-grid، هنجيبها تحت .books-display-area) */
+.books-display-area {
+  /* هنا هندي الأنماط حسب الحالة (أفقي أو شبكي) */
+}
+
+/* العرض الأفقي (Horizontal Layout) */
+.books-display-area.books-row-layout {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 15px;
+  background-color: #EBF9FF;
+  /* gap: 16px; */
+}
+
+/* إخفاء شريط التمرير الأفقي (اختياري) */
+.books-display-area.books-row-layout::-webkit-scrollbar { display: none; }
+.books-display-area.books-row-layout { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* أنماط بطاقة الكتاب في العرض الأفقي */
+.books-display-area.books-row-layout > div {
+  flex-shrink: 0;
+  width: 160px; 
+
+  /* عرض ثابت للبطاقة في العرض الأفقي */
+}
+
+/* العرض الشبكي (Grid Layout) */
+.books-display-area.books-grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* تصميم متجاوب */
+  gap: 20px;
+  margin-top: 20px;
+  /* background-color: #EBF9FF; */
+  background-color: red;
+
+}
+.books-section-container{
+  background-color: #EBF9FF;
+
+}
+
+/* أنماط بطاقة الكتاب العامة (لكل الحالات) */
+/* في styles.css أو ملف CSS الخاص بـ BookCard */
+.book-card-link { /* إذا كنت تستخدم Link حول البطاقة */
+  display: block; /* أو inline-block */
+  text-decoration: none;
+  color: inherit;
+}
+
+.book-card {
+  /* العرض الثابت الذي تريده - يجب أن يتوافق مع minWidth في BooksSection.js أو يكون مستقلاً */
+  width: 220px;
+   /* أو أي قيمة كانت لديك */
+  height: 400px; 
+  /* أو أي قيمة ارتفاع كانت لديك */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden; /* مهم جدًا لإخفاء أي محتوى يتجاوز الحجم */
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.book-card-cover {
+  /* width: 100%; */
+  /* height: 200px;  */
+  /* اضبط هذا الارتفاع ليتناسب مع الارتفاع الكلي للبطاقة */
+  /* object-fit: cover;  */
+  /* أو contain حسب ما تفضل */
+}
+
+.book-card-info {
+  /* padding: 10px; */
+  /* flex-grow: 1; */
+   /* ليأخذ المساحة المتبقية */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* لتوزيع المساحة بين العنوان/المؤلف والتفاصيل الأخرى */
+}
+
+.book-card-title {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 5px;
+  /* للتحكم في النص الطويل */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.book-card-author {
+  font-size: 0.9em;
+  color: #555;
+  /* للتحكم في النص الطويل */
+  white-space: nowrap;
+  /* overflow: hidden; */
+  text-overflow: ellipsis;
+}
+
+/* أي تنسيقات أخرى للوسوم (tags) إذا كنت تعرضها */
+
+  /* .books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+   
+    gap: 20px;
+    margin-top: 20px;
+    
+  }
+  
+  .book-card {
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid rgb(236, 236, 236) .5px;
+  
+  }
+  
+  .book-card img {
+    max-width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  .book-card h4 {
+      font-size: 0.9rem;
+      margin: 5px 0;
+      color: #121B6B;
+  }
+   .book-card p {
+      font-size: 0.8rem;
+      color: #828282;
+      margin: 0;
+   }
+   */
+  /* Features Section */
+
+  .features-grid {
+    background-color: white;
+      display: grid;
+      /* display: flex; */
+      /* justify-content: ; */
+      margin: 50px;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      margin-top: 20px;
+      
+  }
+  
+  .feature-item {
+      /* background-color: #f9f9f9; */
+      padding: 20px;
+      border-radius: 8px;
+      display: flex;
+      align-items: flex-start; /* محاذاة للأعلى */
+      gap: 15px;
+  }
+  
+   .feature-item svg { /* تنسيق أيقونة الميزة */
+      width: 30px;
+      height: 30px;
+      color: #1a2a4d;
+       /* لون الأيقونة */
+      flex-shrink: 0; /* منع الأيقونة من التقلص */
+   }
+  
+   .feature-item h4 {
+      margin: 0 0 5px 0;
+      font-size: 1.1rem;
+   }
+   .feature-item p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: #555;
+   }
+   .section-container{
+    padding-top: 30px;
+    display: flex;
+    /* width: 1280px; */
+    /* width: 90%px; */
+    /* height: 2945px; */
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+   }
+  
+  
+  /* App Promo Section */
+  .app-promo-section {
+    margin-top: 100px;
+    /* width: 100%; */
+    /* margin-left: 100px; */
+    /* height: 461px; */
+    background-color: #eef2ff;
+     /* مثال للون خلفية القسم */
+    padding: 60px ; 
+    /* مثال للحشو */
+    overflow: visible; /* هام جداً: للسماح بالفيضان */
+    position: relative; /* يمكن أن يكون هنا أو في .app-promo-content */
+  }
+  
+  .app-promo-content {
+    display: flex; /* استخدام flexbox لتنظيم النص والصورة */
+    align-items: center; /* محاذاة العناصر عمودياً */
+    justify-content: space-around; 
+    /* توزيع المساحة */
+    /* position: relative;  */
+    /* هام جداً: ليكون مرجعاً لـ position: absolute */
+    /* max-width: 1100px;  */
+    /* مثال لعرض الحاوية */
+    margin: 0 auto; /* لتوسيط الحاوية */
+    /* width: 90%; */
+  }
+  
+  .app-promo-image {
+    position: absolute; /* جعله يطفو */
+    top: -120px;       /* رفعه للأعلى خارج حدود الأب (عدّل القيمة حسب الحاجة) */
+    left: 300px;       /* تحريكه لليسار (عدّل القيمة حسب الحاجة) */
+    width: 280px;     /* مثال لعرض حاوية الهاتف (عدّل حسب الحاجة) */
+    z-index: 10;      /* تأكد من ظهوره فوق العناصر الأخرى */
+  }
+  
+  .app-promo-image img {
+    display: block; /* إزالة أي مسافات سفلية إضافية للصورة */
+    width: 100%;   /* جعل الصورة تملأ حاويتها */
+    height: auto;
+    transform: rotate(-17.3deg); /* الدوران (استخدم قيمة سالبة إذا كان الدوران بالعكس) */
+    /* إضافة ظل لتعزيز الإحساس بالعمق (اختياري) */
+    filter: drop-shadow(0px 10px 15px rgba(0, 0, 0, 0.2));
+    position: relative;
+    top: 50px;
+  }
+  
+  .app-promo-text {
+    /* color: red; */
+    /* يمكن إضافة هامش يسار لإبعاد النص عن منطقة الصورة المطلقة */
+    /* أو استخدام خصائص flex/grid لترتيب العناصر */
+    flex-basis: 50%; 
+    position: relative;
+    left: 50px;
+    /* width: 30000%; */
+    padding-left: 150px; 
+    z-index: 10; 
+  }
+  .app-promo-text h2{
+    color: #29436D;
+    font-size: xx-large;
+    padding: 5px;
+  }
+  .app-promo-text p{
+    color: #121B6B;
+    font-size: large;
+    padding: 5px;
+
+  }
+  .app-store-buttons img {
+    height: 40px; /* مثال لحجم أزرار المتجر */
+    width: auto;
+    margin-right: 10px; /* مسافة بين الأزرار */
+    margin-top: 15px;
+  }
+  button {
+    border: none;
+  }
+  
+  /* --- Responsive adjustments --- */
+  @media (max-width: 768px) {
+    .app-promo-content {
+      flex-direction: column; /* تغيير الترتيب للشاشات الصغيرة */
+      text-align: center;
+    }
+  
+    .app-promo-image {
+      position: relative; /* إرجاعه للتدفق الطبيعي في الشاشات الصغيرة */
+      top: auto;
+      left: auto;
+      width: 60%; /* تعديل الحجم */
+      margin: 0 auto 30px auto; /* توسيط وإضافة هامش سفلي */
+      transform: rotate(0deg); /* إزالة الدوران أو تعديله */
+      filter: none; /* إزالة الظل إذا أردت */
+    }
+  
+    .app-promo-text {
+      flex-basis: auto; /* إزالة تحديد المساحة */
+      padding-left: 0; /* إزالة الحشو */
+    }
+  }
+  
+  /* --- Add more specific styles and responsiveness as needed --- */
+
+  /* src/styles.css */
+.book-reader-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.book-reader-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.book-content {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.back-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.breadcrumbs {
+  margin-bottom: 20px;
+}
+
+.breadcrumbs-link {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 5px;
+}
+
+.breadcrumbs-link:hover {
+  text-decoration: underline;
+}
+
+.loading-message, .error-message {
+  text-align: center;
+  padding: 20px;
+}

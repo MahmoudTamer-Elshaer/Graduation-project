@@ -1,0 +1,133 @@
+/* استايل عام */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.forget {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  margin-top: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* الجزء الشمال */
+.left-section {
+  width: 40%;
+  background-color: #f5f7fa;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-image: url(../../assets/images/forgetpass.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.top-logo img {
+  width: 150px;
+  height: 50px;
+  margin-right: 370px;
+  background-color: transparent;
+}
+
+/* الجزء اليمين */
+.right-section {
+  width: 60%;
+  background-color: #ffffff;
+  padding: 60px 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-section h2 {
+  color: #29436D;
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.right-section p {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 50px;
+  text-align: center;
+  line-height: 1.6;
+  padding: 0 10px;
+}
+
+.form-group {
+  width: 442px; /* نفس عرض الـ input والـ button */
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* لتمركز العناصر داخل الـ form-group */
+}
+
+.form-group label {
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  color: #29436D;
+  margin-bottom: 10px;
+  align-self: flex-start; /* الـ label يبقى على الشمال داخل الـ form-group */
+}
+
+.form-group input {
+  width: 442px;
+  padding: 15px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.verify-btn {
+  width: 442px;
+  height: 50px;
+  background-color: #29436D;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.verify-btn:hover {
+  background-color: #3fcdef;
+}
+
+/* ستايل الرسايل */
+.message {
+  width: 442px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.message.success {
+  color: #29436D; /* نفس لون h2 و label للتناسق */
+}
+
+.message.error {
+  color: #d32f2f; /* أحمر للخطأ */
+}

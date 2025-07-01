@@ -1,0 +1,667 @@
+.word-list-memorized {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .word-list-memorized .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1552px;
+    position: relative;
+  }
+  
+  .word-list-memorized .frame {
+    display: flex;
+    width: 1442px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 80px;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    background-color: var(--collection-1-text);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: var(--neutralneutral-50);
+  }
+  
+  .word-list-memorized .group {
+    position: relative;
+    width: 147.12px;
+    height: 44.95px;
+  }
+  
+  .word-list-memorized .asset {
+    position: absolute;
+    width: 40px;
+    height: 45px;
+    top: 0;
+    left: 0;
+  }
+  
+  .word-list-memorized .lexi-read {
+    position: absolute;
+    width: 95px;
+    height: 17px;
+    top: 14px;
+    left: 53px;
+  }
+  
+  .word-list-memorized .vector {
+    position: absolute;
+    width: 12px;
+    height: 16px;
+    top: 0;
+    left: 83px;
+  }
+  
+  .word-list-memorized .img {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 5px;
+    left: 69px;
+  }
+  
+  .word-list-memorized .vector-2 {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    top: 5px;
+    left: 56px;
+  }
+  
+  .word-list-memorized .vector-3 {
+    position: absolute;
+    width: 13px;
+    height: 15px;
+    top: 1px;
+    left: 42px;
+  }
+  
+  .word-list-memorized .vector-4 {
+    position: absolute;
+    width: 4px;
+    height: 16px;
+    top: 0;
+    left: 36px;
+  }
+  
+  .word-list-memorized .vector-5 {
+    position: absolute;
+    width: 12px;
+    height: 11px;
+    top: 5px;
+    left: 22px;
+  }
+  
+  .word-list-memorized .vector-6 {
+    position: absolute;
+    width: 11px;
+    height: 12px;
+    top: 5px;
+    left: 10px;
+  }
+  
+  .word-list-memorized .vector-7 {
+    position: absolute;
+    width: 9px;
+    height: 15px;
+    top: 1px;
+    left: 0;
+  }
+  
+  .word-list-memorized .frame-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .frame-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 10px;
+  }
+  
+  .word-list-memorized .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--body-16-m-font-family);
+    font-weight: var(--body-16-m-font-weight);
+    color: var(--collection-1-text-black);
+    font-size: var(--body-16-m-font-size);
+    text-align: center;
+    letter-spacing: var(--body-16-m-letter-spacing);
+    line-height: var(--body-16-m-line-height);
+    white-space: nowrap;
+    font-style: var(--body-16-m-font-style);
+  }
+  
+  .word-list-memorized .frame-4 {
+    position: absolute;
+    width: 51px;
+    height: 1px;
+    top: 36px;
+    left: 250px;
+    background-color: #e1ab48;
+    border-radius: 10px;
+  }
+  
+  .word-list-memorized .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--body-16-b-font-family);
+    font-weight: var(--body-16-b-font-weight);
+    color: var(--collection-1-text-black);
+    font-size: var(--body-16-b-font-size);
+    text-align: center;
+    letter-spacing: var(--body-16-b-letter-spacing);
+    line-height: var(--body-16-b-line-height);
+    white-space: nowrap;
+    font-style: var(--body-16-b-font-style);
+  }
+  
+  .word-list-memorized .frame-5 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    padding: 12px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 10px;
+  }
+  
+  .word-list-memorized .frame-6 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .frame-7 {
+    position: relative;
+    width: 32px;
+    height: 32px;
+    border-radius: 1000px;
+
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .word-list-memorized .text-wrapper-3 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-16-m-font-family);
+    font-weight: var(--body-16-m-font-weight);
+    color: var(--collection-1-text-black);
+    font-size: var(--body-16-m-font-size);
+    text-align: center;
+    letter-spacing: var(--body-16-m-letter-spacing);
+    line-height: var(--body-16-m-line-height);
+    white-space: nowrap;
+    font-style: var(--body-16-m-font-style);
+  }
+  
+  .word-list-memorized .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .word-list-memorized .frame-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1440px;
+    height: 287px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 32px 80px;
+    position: absolute;
+    top: 1265px;
+    left: 0;
+    background-color: var(--collection-1-color-for-rect);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-color: var(--neutralneutral-200);
+  }
+  
+  .word-list-memorized .frame-8 {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+    margin-bottom: -16.00px;
+  }
+  
+  .word-list-memorized .frame-9 {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 239px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .word-list-memorized .p {
+    position: relative;
+    align-self: stretch;
+    font-family: var(--body-16-r-font-family);
+    font-weight: var(--body-16-r-font-weight);
+    color: var(--primaryprimary-900);
+    font-size: var(--body-16-r-font-size);
+    letter-spacing: var(--body-16-r-letter-spacing);
+    line-height: var(--body-16-r-line-height);
+    font-style: var(--body-16-r-font-style);
+  }
+  
+  .word-list-memorized .text-wrapper-4 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: var(--body-16-m-font-family);
+    font-weight: var(--body-16-m-font-weight);
+    color: var(--collection-1-text-black);
+    font-size: var(--body-16-m-font-size);
+    letter-spacing: var(--body-16-m-letter-spacing);
+    line-height: var(--body-16-m-line-height);
+    font-style: var(--body-16-m-font-style);
+  }
+  
+  .word-list-memorized .frame-10 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .frame-11 {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-14-m-font-family);
+    font-weight: var(--body-14-m-font-weight);
+    color: var(--primaryprimary-900);
+    font-size: var(--body-14-m-font-size);
+    letter-spacing: var(--body-14-m-letter-spacing);
+    line-height: var(--body-14-m-line-height);
+    white-space: nowrap;
+    font-style: var(--body-14-m-font-style);
+  }
+  
+  .word-list-memorized .frame-12 {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 239px;
+    align-items: flex-start;
+    gap: 42px;
+    position: relative;
+  }
+  
+  .word-list-memorized .div-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--header-18-m-font-family);
+    font-weight: var(--header-18-m-font-weight);
+    color: var(--collection-1-primary-v2);
+    font-size: var(--header-18-m-font-size);
+    letter-spacing: var(--header-18-m-letter-spacing);
+    line-height: var(--header-18-m-line-height);
+    white-space: nowrap;
+    font-style: var(--header-18-m-font-style);
+  }
+  
+  .word-list-memorized .frame-13 {
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .frame-14 {
+    display: flex;
+    width: 1280px;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 124px;
+    left: 80px;
+  }
+  
+  .word-list-memorized .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-16-m-font-family);
+    font-weight: var(--body-16-m-font-weight);
+    color: var(--collection-1-text-black);
+    font-size: var(--body-16-m-font-size);
+    letter-spacing: var(--body-16-m-letter-spacing);
+    line-height: var(--body-16-m-line-height);
+    white-space: nowrap;
+    font-style: var(--body-16-m-font-style);
+  }
+  
+  .word-list-memorized .frame-15 {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--neutralneutral-100);
+  }
+  
+  .word-list-memorized .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-16-m-font-family);
+    font-weight: var(--body-16-m-font-weight);
+    color: var(--primaryprimary-900);
+    font-size: var(--body-16-m-font-size);
+    text-align: center;
+    letter-spacing: var(--body-16-m-letter-spacing);
+    line-height: var(--body-16-m-line-height);
+    white-space: nowrap;
+    font-style: var(--body-16-m-font-style);
+  }
+  
+  .word-list-memorized .frame-16 {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    top: 208px;
+    left: 178px;
+  }
+  
+  .word-list-memorized .word-list-button-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    align-items: flex-start;
+    gap: 32px;
+    position: relative;
+    box-shadow: 0px 4px 10px #00000014;
+  }
+  
+  .word-list-memorized .word-list-button {
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 24px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--collection-1-text);
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: var(--neutralneutral-50);
+  }
+  
+  .word-list-memorized .frame-17 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 10px;
+  }
+  
+  .word-list-memorized .frame-18 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .frame-19 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+  }
+  
+  .word-list-memorized .text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1.00px;
+    font-family: var(--header-32-SB-font-family);
+    font-weight: var(--header-32-SB-font-weight);
+    color: var(--secondarysecondary-600);
+    font-size: var(--header-32-SB-font-size);
+    text-align: center;
+    letter-spacing: var(--header-32-SB-letter-spacing);
+    line-height: var(--header-32-SB-line-height);
+    white-space: nowrap;
+    font-style: var(--header-32-SB-font-style);
+  }
+  
+  .word-list-memorized .frame-20 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .text-wrapper-10 {
+    margin-top: -1.00px;
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-16-SB-font-family);
+    font-weight: var(--body-16-SB-font-weight);
+    color: var(--primaryprimary-300);
+    font-size: var(--body-16-SB-font-size);
+    text-align: right;
+    letter-spacing: var(--body-16-SB-letter-spacing);
+    line-height: var(--body-16-SB-line-height);
+    white-space: nowrap;
+    font-style: var(--body-16-SB-font-style);
+  }
+  
+  .word-list-memorized .text-wrapper-11 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-14-m-font-family);
+    font-weight: var(--body-14-m-font-weight);
+    color: var(--primaryprimary-900);
+    font-size: var(--body-14-m-font-size);
+    text-align: right;
+    letter-spacing: var(--body-14-m-letter-spacing);
+    line-height: var(--body-14-m-line-height);
+    white-space: nowrap;
+    font-style: var(--body-14-m-font-style);
+  }
+  
+  .word-list-memorized .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    font-family: var(--body-16-SB-font-family);
+    font-weight: var(--body-16-SB-font-weight);
+    color: var(--primaryprimary-300);
+    font-size: var(--body-16-SB-font-size);
+    text-align: right;
+    letter-spacing: var(--body-16-SB-letter-spacing);
+    line-height: var(--body-16-SB-line-height);
+    white-space: nowrap;
+    font-style: var(--body-16-SB-font-style);
+  }
+  
+  .word-list-memorized .line {
+    position: relative;
+    width: 474px;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .word-list-memorized .text-wrapper-13 {
+    position: relative;
+    width: 424px;
+    font-family: var(--body-14-m-font-family);
+    font-weight: var(--body-14-m-font-weight);
+    color: var(--primaryprimary-900);
+    font-size: var(--body-14-m-font-size);
+    letter-spacing: var(--body-14-m-letter-spacing);
+    line-height: var(--body-14-m-line-height);
+    font-style: var(--body-14-m-font-style);
+  }
+  
+  .word-list-memorized .frame-21 {
+    display: flex;
+    flex-direction: column;
+    width: 117px;
+    align-items: center;
+    gap: 16px;
+    position: absolute;
+    top: 222px;
+    left: 380px;
+  }
+  
+  .word-list-memorized .image {
+    position: relative;
+    width: 52px;
+    height: 79px;
+    object-fit: cover;
+  }
+  
+  .word-list-memorized .text-wrapper-14 {
+    position: relative;
+    align-self: stretch;
+    height: 29px;
+    font-family: var(--body-12-m-font-family);
+    font-weight: var(--body-12-m-font-weight);
+    color: var(--collection-1-primary-v2);
+    font-size: var(--body-12-m-font-size);
+    text-align: center;
+    letter-spacing: var(--body-12-m-letter-spacing);
+    line-height: var(--body-12-m-line-height);
+    font-style: var(--body-12-m-font-style);
+  }
+  
+  .word-list-memorized .volume-high-wrapper {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .word-list-memorized .frame-22 {
+    display: inline-flex;
+    align-items: center;
+    gap: 24px;
+    position: absolute;
+    top: 696px;
+    left: 178px;
+  }
+  
+
+
+
+/* التأكد من إن النص في text-wrapper-9 و text-wrapper-11 يتقطع بشكل أنيق مع ellipsis ويبدأ من الشمال */
+.word-list-memorized .text-wrapper-9,
+.word-list-memorized .text-wrapper-11 {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+  width: 100%;
+  text-align: left;
+}
+
+/* تثبيت عرض word-list-button */
+.word-list-memorized .word-list-button {
+  width: 530px;
+  box-sizing: border-box;
+}
+
+/* تثبيت frame-19 ومنع النص من التوسع */
+.word-list-memorized .frame-19 {
+  max-width: calc(100% - 40px); /* سيب مساحة للـ close icon (24px + margin) */
+  flex: 1;
+  box-sizing: border-box;
+}
+
+/* تثبيت frame-18 للحفاظ على الـ close icon جوا */
+.word-list-memorized .frame-18 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* تثبيت الـ close icon */
+.word-list-memorized .img-2.close-icon {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  margin-left: 8px; /* مسافة صغيرة بين النص والـ icon */
+}
+
+/* التأكد من إن الـ gap بين الـ boxes في frame-16 و frame-22 ثابت */
+.word-list-memorized .frame-16,
+.word-list-memorized .frame-22 {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 24px;
+}

@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .otp {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+  }
+  
+  .container {
+    display: flex;
+    width: 90%;
+    height: 100%;
+    margin-top: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  /* الجزء الشمال */
+  .left-section {
+    width: 40%;
+    background-color: #f5f7fa;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background-image: url(../../assets/images/hello.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .top-logo img {
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    margin-right: 370px;
+  }
+  
+  /* الجزء اليمين */
+  .right-section {
+    width: 60%;
+    background-color: #ffffff;
+    padding: 60px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .right-section h2 {
+    color: #1c2a58;
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 7px;
+  }
+  
+  .right-section p {
+    color: #555;
+    font-size: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  
+  .right-section h4 {
+    margin-right: 210px;
+    margin-bottom: 7px;
+  }
+  
+  .otp-boxes {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+  }
+  
+  .otp-boxes input {
+    width: 80px;
+    height: 55px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  .confirm-btn {
+    width: 400px;
+    height: 50px;
+    background-color: #29436D;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #3fcdef;
+  }
+  
+  .resend-text {
+    font-size: 14px;
+    color: #777;
+  }
+  
+  .resend-text a {
+    color: #f5a623;
+    text-decoration: none;
+    margin-left: 5px;
+  }
+  
+  /* تنسيق الرسايل */
+  .message {
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .message.success {
+    color: #29436D;
+  }
+  
+  .message.error {
+    color: #d32f2f;
+  }
