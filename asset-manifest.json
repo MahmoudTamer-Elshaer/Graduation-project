@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.6b7f5efb.css",
-    "main.js": "/static/js/main.005331b3.js",
-    "static/js/453.7f20132b.chunk.js": "/static/js/453.7f20132b.chunk.js",
-    "static/media/iphone.png": "/static/media/iphone.64a611e504dd73d946e7.png",
-    "static/media/image.png": "/static/media/image.c39622a64e3a7f88013d.png",
-    "static/media/signup.png": "/static/media/signup.37bb740d063d1c102afd.png",
-    "static/media/hello.png": "/static/media/hello.cb4b049fd1624d1463eb.png",
-    "static/media/forgetpass.png": "/static/media/forgetpass.3413c1f8bbb1cc7eae5e.png",
-    "static/media/login.png": "/static/media/login.b2598729f0206e7694e3.png",
-    "static/media/abdo.png": "/static/media/abdo.bef71926bd5f662168c0.png",
-    "static/media/account.png": "/static/media/account.341c0834677803919f0f.png",
-    "static/media/Frame 1984078263.svg": "/static/media/Frame 1984078263.5cc4886012a6bc03ae359e94c0a2077e.svg",
-    "static/media/facebook-01.svg": "/static/media/facebook-01.a3a5891f29b471987f66b5d57214fc85.svg",
-    "index.html": "/index.html",
-    "static/media/eye.svg": "/static/media/eye.9eed6e33103b4cce11ecd77ded9e0a4b.svg",
-    "static/media/google.svg": "/static/media/google.ae61ab5befde7b42a79a8687e322f2b1.svg",
-    "main.6b7f5efb.css.map": "/static/css/main.6b7f5efb.css.map",
-    "main.005331b3.js.map": "/static/js/main.005331b3.js.map",
-    "453.7f20132b.chunk.js.map": "/static/js/453.7f20132b.chunk.js.map"
+    "main.css": "/Graduation-project/static/css/main.f4d9aa88.css",
+    "main.js": "/Graduation-project/static/js/main.2c1f8bd4.js",
+    "static/js/453.7f20132b.chunk.js": "/Graduation-project/static/js/453.7f20132b.chunk.js",
+    "static/media/iphone.png": "/Graduation-project/static/media/iphone.64a611e504dd73d946e7.png",
+    "static/media/image.png": "/Graduation-project/static/media/image.c39622a64e3a7f88013d.png",
+    "static/media/signup.png": "/Graduation-project/static/media/signup.37bb740d063d1c102afd.png",
+    "static/media/hello.png": "/Graduation-project/static/media/hello.cb4b049fd1624d1463eb.png",
+    "static/media/forgetpass.png": "/Graduation-project/static/media/forgetpass.3413c1f8bbb1cc7eae5e.png",
+    "static/media/login.png": "/Graduation-project/static/media/login.b2598729f0206e7694e3.png",
+    "static/media/abdo.png": "/Graduation-project/static/media/abdo.bef71926bd5f662168c0.png",
+    "static/media/account.png": "/Graduation-project/static/media/account.341c0834677803919f0f.png",
+    "static/media/Frame 1984078263.svg": "/Graduation-project/static/media/Frame 1984078263.5cc4886012a6bc03ae359e94c0a2077e.svg",
+    "static/media/facebook-01.svg": "/Graduation-project/static/media/facebook-01.a3a5891f29b471987f66b5d57214fc85.svg",
+    "index.html": "/Graduation-project/index.html",
+    "static/media/eye.svg": "/Graduation-project/static/media/eye.9eed6e33103b4cce11ecd77ded9e0a4b.svg",
+    "static/media/google.svg": "/Graduation-project/static/media/google.ae61ab5befde7b42a79a8687e322f2b1.svg",
+    "main.f4d9aa88.css.map": "/Graduation-project/static/css/main.f4d9aa88.css.map",
+    "main.2c1f8bd4.js.map": "/Graduation-project/static/js/main.2c1f8bd4.js.map",
+    "453.7f20132b.chunk.js.map": "/Graduation-project/static/js/453.7f20132b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b7f5efb.css",
-    "static/js/main.005331b3.js"
+    "static/css/main.f4d9aa88.css",
+    "static/js/main.2c1f8bd4.js"
   ]
 }
